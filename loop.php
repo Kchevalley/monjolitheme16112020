@@ -10,7 +10,7 @@
     </h3>
     <p class="post-info">
         Posté le <?php the_date(); ?> dans <?php the_category(', ');
-        ?> par <?php the_author(); ?>.
+        ?> par <?php the_author(); the_tags('  Tags : ', ', ', '.'); ?>
     </p>
     <div class="post-content">
         <?php the_content(); ?>
