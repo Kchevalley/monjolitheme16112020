@@ -7,3 +7,18 @@ Description: Le thème du Guide WordPress mais pas tout à fait parce que c'est 
 Version: 1.0
 Tags: Joli, Très joli, Chouette, Cool, Beau, Mensongé 
 */
+header {
+  background-color: blue;
+}
+footer {
+  background-color: green;
+}
+.side {
+  background-color: yellow;
+}
+.loop {
+  background-color: lightblue;
+}
+form {
+  background-color: white;
+}
