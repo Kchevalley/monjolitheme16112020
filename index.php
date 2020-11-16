@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LE TITRE DE MON SITE</title>
-</head>
-<body>
-    <h1>Bonjour</h1>
-</body>
-</html>
+<?php
+get_header();
+get_template_part('loop');
+get_sidebar();
+get_footer();
+?>
