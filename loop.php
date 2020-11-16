@@ -1,3 +1,4 @@
+<div class="loop">
 <?php if (have_posts()) : ?>
 <p class="title">
     Hey ! Il y a des Posts !
@@ -21,3 +22,4 @@
     Il n'y a pas de Post à afficher !
 </p>
 <?php endif; ?>
+</div>
