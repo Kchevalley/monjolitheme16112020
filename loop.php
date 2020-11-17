@@ -1,9 +1,13 @@
 <div class="loop">
+
+<?php query_posts('posts_per_page=2'); ?>
+
 <?php if (have_posts()) : ?>
 <p class="title">
     Hey ! Il y a des Posts !
 </p>
 <?php while (have_posts()) : the_post(); ?>
+
 <div class="post">
     <h3 class="post-title">
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
