@@ -6,7 +6,7 @@
         <div class="post">
             <h1 class="post-title"><?php the_title(); ?></h1>
             <p class="post-info">
-                Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_author(); ?>.
+                Posté le <?php the_date(); ?> dans <?php the_category(', '); ?> par <?php the_author();  the_tags(); ?>.
             </p>
             <div class="post-content">
                 <?php the_content(); ?>
